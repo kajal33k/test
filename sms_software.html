@@ -18,6 +18,8 @@
       href="./assets/css/plugins/fontawesome.css"
       as="style"
     />
+    
+<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
     <link
       rel="stylesheet preload"
       href="./assets/css/plugins/swiper.css"
@@ -53,6 +55,8 @@
     />
     <link rel="preload" as="image" href="./assets/images/banner/21.webp" />
     <link rel="stylesheet preload" href="./assets/css/style.css" as="style" />
+
+    
   </head>
 
   <body>
@@ -716,7 +720,7 @@
                                       </p>
                                     </li>
                                     <li>
-                                      <a href="#"
+                                      <a href="sms_software.html"
                                         ><i
                                           class="fa-sharp fa-regular fa-chevron-right"
                                         ></i>
@@ -1126,7 +1130,7 @@
                                       </p>
                                     </li>
                                     <li>
-                                      <a href="#"
+                                      <a href="sms_software.html"
                                         ><i
                                           class="fa-sharp fa-regular fa-chevron-right"
                                         ></i>
@@ -1635,14 +1639,14 @@
                       <li class="main-nav has-dropdown project-a-after">
                         <a href="#">Institutes</a>
                         <ul class="submenu parent-nav">
-                          <li><a href="#"> Master Administrator Module</a></li>
-                          <li><a href="#"> Head Office Module</a></li>
-                          <li><a href="#">Center Level Module</a></li>
+                          <li><a href="admin_module.html"> Master Administrator Module</a></li>
+                          <li><a href="head_office_module.html"> Head Office Module</a></li>
+                          <li><a href="center_level_software.html">Center Level Module</a></li>
                           <li>
-                            <a href="#"> Visitor Tracking Software</a>
+                            <a href="visitor_tracking.html"> Visitor Tracking Software</a>
                           </li>
                           <li>
-                            <a href="#"> SMS Plug - IN</a>
+                            <a href="sms_software.html"> SMS Plug - IN</a>
                           </li>
                         </ul>
                       </li>
@@ -1652,7 +1656,7 @@
                           <li>
                             <a href="about.html">Ifnoss Education Software</a>
                           </li>
-                          <li><a href="#">Delivery Model</a></li>
+                          <li><a href="delivery_moel.html">Delivery Model</a></li>
                           <li><a href="system_requirement.html">System Requirement</a></li>
                           <li><a href="tech_support.html">Technical Support</a></li>
                         </ul>
@@ -1728,31 +1732,31 @@
             <ul class="nav flex-column nav-pills">
 
                 <li class="nav-item mb-2">
-                    <a href="dashboard.html" class="nav-link active">
+                    <a href="dashboard.html" class="side-nav active">
                        Admin Module
                     </a>
                 </li>
 
                 <li class="nav-item mb-2">
-                    <a href="profile.html" class="nav-link">
+                    <a href="head_office_module.html" class="side-nav">
                       Head Office
                     </a>
                 </li>
 
                 <li class="nav-item mb-2">
-                    <a href="orders.html" class="nav-link">
+                    <a href="center_level_software.html" class="side-nav">
                        Center Level
                     </a>
                 </li>
 
                 <li class="nav-item mb-2">
-                    <a href="settings.html" class="nav-link">
+                    <a href="visitor_tracking.html" class="side-nav">
                         Visitor Tracking
                     </a>
                 </li>
 
                 <li  class="nav-item mb-2">
-                  <a href="sms_software.html" class="nav-link">SMS</a>
+                  <a href="sms_software.html" class="side-nav">SMS</a>
                 </li>
 
             </ul>
@@ -1778,49 +1782,57 @@
             <div class="container py-5">
               <div class="row g-4">
 
-        <!-- Image 1 -->
-        <div class="col-md-6">
-            <div class="position-relative">
-                <img src="https://www.ifnoss.com/edu/assets/screenshots/Ifnoss-Ssm-SendAlerts.png"
-                     class="img-fluid rounded shadow "
-                     style="width: 500px; height: 400px;"
-                     alt="Image 1">
+                <!-- Image 1 -->
+                <div class="col-md-6">
+                  <div class="position-relative">
+                    <img
+                      src="https://www.ifnoss.com/edu/assets/screenshots/Ifnoss-Ssm-SendAlerts.png"
+                      class="img-fluid rounded shadow w-100"
+                      style="height:400px; object-fit:cover;"
+                      alt="Image 1"
+                    />
 
-                <!-- Plus Button -->
-              <button 
-    class="btn btn position-absolute top-50 start-50 translate-middle rounded-circle d-flex align-items-center justify-content-center p-0 shadow"
-    style="width:50px; height:50px; font-size:24px;"
-    data-bs-toggle="modal"
-    data-bs-target="#imageModal"
-    onclick="showImage(this)"
-    data-img="https://www.ifnoss.com/edu/assets/screenshots/Ifnoss-Ssm-SendAlerts.png">
-    +
-</button>
+                    <!-- Plus Button (centered) -->
+                    <button
+                      type="button"
+                      class="btn btn-white border position-absolute top-50 start-50 translate-middle d-flex align-items-center justify-content-center"
+                      style="width:50px; height:50px; font-size:24px; border-radius:50%; z-index:3;"
+                      data-bs-toggle="modal"
+                      data-bs-target="#imageModal"
+                      onclick="showImage(this)"
+                      data-img="https://www.ifnoss.com/edu/assets/screenshots/Ifnoss-Ssm-SendAlerts.png"
+                      aria-label="Open image 1"
+                    >
+                      +
+                    </button>
+                  </div>
+                </div>
 
-            </div>
-        </div>
+                <!-- Image 2 -->
+                <div class="col-md-6">
+                  <div class="position-relative">
+                    <img
+                      src="https://www.ifnoss.com/edu/assets/screenshots/Ifnoss-Sms-Compose.png"
+                      class="img-fluid rounded shadow w-100"
+                      style="height:400px; object-fit:cover;"
+                      alt="Image 2"
+                    />
 
-        <!-- Image 2 -->
-        <div class="col-md-6">
-            <div class="position-relative">
-                <img src="https://www.ifnoss.com/edu/assets/screenshots/Ifnoss-Sms-Compose.png"
-                     class="img-fluid rounded shadow"
-                     style="width: 500px; height: 400px;"
-                     alt="Image 2">
-
-                <!-- Plus Button -->
-                <button 
-    class="btn btn position-absolute top-50 start-50 translate-middle rounded-circle d-flex align-items-center justify-content-center p-0 shadow"
-    style="width:50px; height:50px; font-size:24px;"
-    data-bs-toggle="modal"
-    data-bs-target="#imageModal"
-    onclick="showImage(this)"
-    data-img="https://www.ifnoss.com/edu/assets/screenshots/Ifnoss-Sms-Compose.png">
-    +
-</button>
-
-            </div>
-        </div>
+                    <!-- Plus Button (centered) -->
+                    <button
+                      type="button"
+                      class="btn btn-white border position-absolute top-50 start-50 translate-middle d-flex align-items-center justify-content-center"
+                      style="width:50px; height:50px; font-size:24px; border-radius:50%; z-index:3;"
+                      data-bs-toggle="modal"
+                      data-bs-target="#imageModal"
+                      onclick="showImage(this)"
+                      data-img="https://www.ifnoss.com/edu/assets/screenshots/Ifnoss-Sms-Compose.png"
+                      aria-label="Open image 2"
+                    >
+                      +
+                    </button>
+                  </div>
+                </div>
 
               </div>
             </div>
@@ -1837,12 +1849,12 @@
         <div class="col-md-3">
             <div class="card text-center shadow-sm p-4 h-100">
                 <div class="mb-3">
-                    <i class="bi bi-pencil-square fs-1 text-success"></i>
+                    <i class="bi bi-person-check fs-1 text-success"></i>
                 </div>
                 <h5 class="fw-bold">Registration and Admission</h5>
-                <ul>
-                  <li>Interview Dates of Registration</li>
-                  <li>Confirmation of Admission</li>
+                <ul class="list-unstyled ms-4 mt-2">
+                  <li class="text-muted "> <i class="bi bi-arrow-right-circle me-3"></i>Interview Dates of Registration</li>
+                  <li class="text-muted "> <i class="bi bi-arrow-right-circle me-3"></i>Confirmation of Admission</li>
                 </ul>
             </div>
         </div>
@@ -1851,13 +1863,13 @@
         <div class="col-md-3">
             <div class="card text-center shadow-sm p-4 h-100">
                 <div class="mb-3">
-                    <i class="bi bi-calendar-event fs-1 text-primary"></i>
+                    <i class="bi bi-coin fs-1 text-primary"></i>
                 </div>
                 <h5 class="fw-bold">Fee Alerts</h5>
-                <ul>
-                  <li>Details of the current fee due</li>
-                  <li>Fee payment Reminders to defaulters</li>
-                  <li>Confirmation of fees paid</li>
+                <ul class="list-unstyled ms-4 mt-2">
+                  <li class="text-muted "> <i class="bi bi-arrow-right-circle me-3"></i>Details of the current fee due</li>
+                  <li class="text-muted "> <i class="bi bi-arrow-right-circle me-3"></i>Fee payment Reminders to defaulters</li>
+                  <li class="text-muted "> <i class="bi bi-arrow-right-circle me-3"></i>Confirmation of fees paid</li>
                 </ul>
             </div>
         </div>
@@ -1866,14 +1878,14 @@
         <div class="col-md-3">
             <div class="card text-center shadow-sm p-4 h-100">
                 <div class="mb-3">
-                    <i class="bi bi-check-circle fs-1 text-success"></i>
+                    <i class="bi bi-bell fs-1 text-success"></i>
                 </div>
                 <h5 class="fw-bold">Special Announcements</h5>
-                <ul>
-                  <li>News / Events information</li>
-                  <li>Customized wishes</li>
-                  <li>Holidays information</li>
-                  <li>Urgent alerts to parents/students</li>
+                <ul class="list-unstyled ms-4 mt-2">
+                  <li class="text-muted "> <i class="bi bi-arrow-right-circle me-3"></i>News / Events information</li>
+                  <li class="text-muted "> <i class="bi bi-arrow-right-circle me-3"></i>Customized wishes</li>
+                  <li class="text-muted "> <i class="bi bi-arrow-right-circle me-3"></i>Holidays information</li>
+                  <li class="text-muted "> <i class="bi bi-arrow-right-circle me-3"></i>Urgent alerts to parents/students</li>
                 </ul>
             </div>
         </div>
@@ -1881,12 +1893,12 @@
           <div class="col-md-3">
             <div class="card text-center shadow-sm p-4 h-100">
                 <div class="mb-3">
-                    <i class="bi bi-check-circle fs-1 text-success"></i>
+                    <i class="bi bi-people fs-1 text-success"></i>
                 </div>
                 <h5 class="fw-bold">Payroll Alerts</h5>
-                <ul>
-                  <li>Alerts for Salary credit to bank account</li>
-                  <li>Information to All/Selected Staff members for Meeting</li>
+                <ul class="list-unstyled ms-4 mt-2">
+                  <li class="text-muted "> <i class="bi bi-arrow-right-circle me-3"></i>Alerts for Salary credit to bank account</li>
+                  <li class="text-muted "> <i class="bi bi-arrow-right-circle me-3"></i>Information to All/Selected Staff members for Meeting</li>
                 
 </ul>
             </div>
@@ -2208,7 +2220,7 @@ function showImage(button) {
                 <li><a href="#">Alumni</a></li>
                 <li><a href="#">Placement</a></li>
                 <li><a href="#" class="fw-bold">Add-Ons</a></li>
-                <li><a href="#"> SMS Plugin</a></li>
+                <li><a href="sms_software.html"> SMS Plugin</a></li>
                 <li><a href="#"> Website</a></li>
                 <li><a href="#"> Resource Booking</a></li>
                 <li><a href="#"> Payment Gateway</a></li>
@@ -2248,7 +2260,7 @@ function showImage(button) {
                 <li><a href="#"> Parking</a></li>
                 <li><a href="#"> Alumni</a></li>
                 <li><a href="#" class="fw-bold"> Add-Ons</a></li>
-                <li><a href="#"> SMS Plugin</a></li>
+                <li><a href="sms_software.html"> SMS Plugin</a></li>
                 <li><a href="#"> Website</a></li>
                 <li><a href="#"> Resource Booking</a></li>
                 <li><a href="#"> Payment Gateway</a></li>
@@ -2269,23 +2281,23 @@ function showImage(button) {
                   <a class="mobile-menu-link" href="#">Institutes</a>
                 </li>
                 <li>
-                  <a class="mobile-menu-link" href="#">
+                  <a class="mobile-menu-link" href="admin_module.html">
                     Master Administrator Module</a
                   >
                 </li>
                 <li>
-                  <a class="mobile-menu-link" href="#"> Head Office Module</a>
+                  <a class="mobile-menu-link" href="head_office_module.html"> Head Office Module</a>
                 </li>
                 <li>
-                  <a class="mobile-menu-link" href="#"> Center Level Module</a>
+                  <a class="mobile-menu-link" href="center_level_software.html"> Center Level Module</a>
                 </li>
                 <li>
-                  <a class="mobile-menu-link" href="#">
+                  <a class="mobile-menu-link" href="visitor_tracking.html">
                     Visitor Tracking Software</a
                   >
                 </li>
                 <li>
-                  <a class="mobile-menu-link" href="#">SMS Plug - IN</a>
+                  <a class="mobile-menu-link" href="sms_software.html">SMS Plug - IN</a>
                 </li>
               </ul>
             </li>
@@ -2293,8 +2305,8 @@ function showImage(button) {
               <a href="about.html" class="main" aria-expanded="false">About</a>
               <ul class="submenu mm-collapse">
                 <li><a href="about.html">About</a></li>
-                <li><a href="#">Ifnoss Education Software</a></li>
-                <li><a href="#">Delivery Model</a></li>
+                <li><a href="about.html">Ifnoss Education Software</a></li>
+                <li><a href="delivery_moel.html">Delivery Model</a></li>
                 <li>
                   <a href="system_requirement.html">System Requirement</a>
                 </li>
