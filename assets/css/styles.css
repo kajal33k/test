@@ -15827,7 +15827,10 @@ section.main-wrapper-sticky .sticky-statement.narrow .left-side img {
   border-radius: 30px;
   border: 1px solid #EDEFF3;
   height: 100%;
+  background-color: #F5F5F5;
+  margin-bottom: 30px;
 }
+
 @media only screen and (max-width: 1199px) {
   .rts-blog-h-2-wrapper {
     padding: 20px;
