@@ -1058,10 +1058,80 @@ function showImage(button) {
     </div>
 </div>
 
-<div class="container py-4">
+<!-- <div class="container py-4">
   <img src="https://www.ifnoss.com/edu/assets/images/colorfull.png" alt="" class="">
-</div>
+</div> -->
 
+<style>
+  body{
+    background:#f6f8fb;
+    font-family:system-ui;
+}
+
+.feature-card{
+    background:#fff;
+    border-radius:18px;
+    padding:35px 20px;
+    text-align:center;
+    box-shadow:0 8px 22px rgba(0,0,0,.06);
+    transition:.35s;
+}
+
+.feature-card:hover{
+    transform:translateY(-8px);
+    box-shadow:0 20px 45px rgba(0,0,0,.08);
+}
+
+.feature-img{
+    width:90px;
+    height:90px;
+    object-fit:contain;
+    margin-bottom:14px;
+}
+
+.feature-card h6{
+    font-weight:600;
+    margin:0;
+}
+</style>
+
+<div class="container py-5">
+    <div class="row g-4">
+
+        <!-- Card 1 -->
+        <div class="col-md-6 col-lg-3">
+            <div class="feature-card">
+                <img src="" class="feature-img" alt="">
+                <h6>Multi Location</h6>
+            </div>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="col-md-6 col-lg-3">
+            <div class="feature-card">
+                <img src="customizable.png" class="feature-img" alt="">
+                <h6>Fully Customizable</h6>
+            </div>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="col-md-6 col-lg-3">
+            <div class="feature-card">
+                <img src="responsive.png" class="feature-img" alt="">
+                <h6>Fully Responsive</h6>
+            </div>
+        </div>
+
+        <!-- Card 4 -->
+        <div class="col-md-6 col-lg-3">
+            <div class="feature-card">
+                <img src="multilingual.png" class="feature-img" alt="">
+                <h6>Multi Lingual</h6>
+            </div>
+        </div>
+
+    </div>
+</div>
 
 
    <!-- footer area start -->

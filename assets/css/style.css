@@ -1,4 +1,4 @@
-/*=================Scss Indexing=============
+/* =================Scss Indexing=============
 1.variables
 2.typography
 3.spacing
@@ -24482,6 +24482,13 @@ header.header-transparent.in-full-screen .action-area .menu-btn {
 .rts-section-gap2 {
   padding: 100px 0;
 }
+
+@media only screen and (min-width: 1024px) and (max-width: 1199px) {
+  .rts-section-gap2 {
+    padding: 200px 0;
+  }
+}
+
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .rts-section-gap2 {
     padding: 80px 0;

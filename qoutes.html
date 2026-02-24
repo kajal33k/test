@@ -906,17 +906,17 @@
               <form method="post" action="mailer.php">
                 <div class="row g-3">
                   <div class="col-md-6">
-                    <label class="form-label">Software For *</label>
+                    <label class="form-label">Software For <span style="color: #dc3545;">*</span></label>
                     <input type="text" class="form-control" required />
                   </div>
 
                   <div class="col-md-6">
-                    <label class="form-label">Name *</label>
+                    <label class="form-label">Name <span style="color: #dc3545;">*</span></label>
                     <input type="text" class="form-control" required />
                   </div>
 
                   <div class="col-md-6">
-                    <label class="form-label">Institution Name *</label>
+                    <label class="form-label">Institution Name <span style="color: #dc3545;">*</span></label>
                     <input type="text" class="form-control" required />
                   </div>
 
@@ -931,12 +931,12 @@
                   </div>
 
                   <div class="col-md-6">
-                    <label class="form-label">Email *</label>
+                    <label class="form-label">Email <span style="color: #dc3545;">*</span></label>
                     <input type="email" class="form-control" required />
                   </div>
 
                   <div class="col-md-6">
-                    <label class="form-label">Mobile No. *</label>
+                    <label class="form-label">Mobile No. <span style="color: #dc3545;">*</span></label>
                      <div class="row g-1">
                       <div class="col-6">
                         <input
@@ -992,36 +992,39 @@
                   </div>
 
                   <div class="col-md-6">
-                    <label class="form-label">Address *</label>
+                    <label class="form-label">Address <span style="color: #dc3545;">*</span></label>
                     <input type="text" class="form-control" required />
                   </div>
 
                   <div class="col-md-6">
-                    <label class="form-label">City *</label>
+                    <label class="form-label">City <span style="color: #dc3545;">*</span></label>
                     <input type="text" class="form-control" required />
                   </div>
 
                   <div class="col-md-6">
-                    <label class="form-label">Country *</label>
+                    <label class="form-label">Country <span style="color: #dc3545;">*</span></label>
                     <input type="text" class="form-control" required />
                   </div>
 
                   <div class="col-md-6">
-                    <label class="form-label">Order Type *</label>
-                    <select class="form-select" required>
-                      <option value="">Select</option>
-                      <option>Ifnoss SaaS (Cloud)</option>
-                      <option>Ifnoss Hosted</option>
-                      <option>IFNOSS Premise</option>
-                      <option>Not Sure</option>
+                    <label class="form-label" style="font-weight: 600; color: #333; margin-bottom: 8px; display: block;">
+                      Order Type <span style="color: #dc3545;">*</span>
+                    </label>
+                    <select class="form-select" required style="border: 2px solid #e0e0e0; border-radius: 8px; padding: 12px 15px; font-size: 14px; color: #555; background-color: #f9f9f9; transition: all 0.3s ease; box-shadow: 0 2px 4px rgba(0,0,0,0.05);" 
+                     >
+                      <option value="" style="color: #999;">Select</option>
+                      <option style="color: #333;">Ifnoss SaaS (Cloud)</option>
+                      <option style="color: #333;">Ifnoss Hosted</option>
+                      <option style="color: #333;">IFNOSS Premise</option>
+                      <option style="color: #333;">Not Sure</option>
                     </select>
                   </div>
 
                   <div class="col-md-6">
-                    <label class="form-label"
-                      >Where did you hear about us *</label
+                    <label class="form-label" style="font-weight: 600; color: #333; margin-bottom: 8px; display: block;"
+                      >Where did you hear about us <span style="color: #dc3545;">*</span></label
                     >
-                    <select class="form-select">
+                    <select class="form-select required" style="border: 2px solid #e0e0e0; border-radius: 8px; padding: 12px 15px; font-size: 14px; color: #555; background-color: #f9f9f9; transition: all 0.3s ease; box-shadow: 0 2px 4px rgba(0,0,0,0.05);" >
                       <option value="">Select</option>
                       <option>Google/ Other Search Engine</option>
                       <option>Creativ Eras websites</option>
@@ -1033,8 +1036,8 @@
                   </div>
 
                   <div class="col-md-6">
-                    <label class="form-label">Preference</label>
-                    <select class="form-select">
+                    <label class="form-label" style="font-weight: 600; color: #333; margin-bottom: 8px; display: block;">Preference</label>
+                    <select class="form-select required" style="border: 2px solid #e0e0e0; border-radius: 8px; padding: 12px 15px; font-size: 14px; color: #555; background-color: #f9f9f9; transition: all 0.3s ease; box-shadow: 0 2px 4px rgba(0,0,0,0.05);" >
                       <option value="">Select</option>
                       <option>Get an online demo</option>
                       <option>
@@ -1044,7 +1047,7 @@
                   </div>
 
                   <div class="col-12">
-                    <label class="form-label">Comments *</label>
+                    <label class="form-label">Comments <span style="color: #dc3545;">*</span></label>
                     <textarea class="form-control" rows="4" required></textarea>
                   </div>
 
@@ -1055,7 +1058,7 @@
                     </label>
                     <input
                       type="text"
-                      class="form-control"
+                      class="form-control" style="color: #999;"
                       placeholder="Anti - spam test *"
                       required
                     />
