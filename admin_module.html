@@ -18,6 +18,10 @@
       href="./assets/css/plugins/fontawesome.css"
       as="style"
     />
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+
+
     <link
       rel="stylesheet preload"
       href="./assets/css/plugins/swiper.css"
@@ -61,7 +65,7 @@
         <div class="container">
           <div class="row">
             <div class="col-lg-12">
-              <div class="header-top-one-wrapper">
+                 <div class="header-top-one-wrapper">
                 <div class="left">
 					<div class="phone">
 						<a href="tel:+91 9839774652">
@@ -77,34 +81,31 @@
                   </div>
              
                  
-                  <div class="working-time">
-                    <p><i class="fal fa-clock"></i> Working: 10.00am - 6.00pm</p>
-                  </div>
+               
                 </div>
                 <div class="right">
                   <ul class="top-nav">
-                    <li><a href="#">Company news</a></li>
-                    <li><a href="#">Faq</a></li>
+                   
                     <li><a href="contact-2.html">Contact</a></li>
                   </ul>
                   <ul class="social-wrapper-one">
                     <li>
-                      <a href="#" aria-label="Facebook"
+                      <a href="https://www.facebook.com/ifnoss" aria-label="Facebook"
                         ><i class="fab fa-facebook-f"></i
                       ></a>
                     </li>
                     <li>
-                      <a href="#" aria-label="twitter"
+                      <a href="https://x.com/ifnoss" aria-label="twitter"
                         ><i class="fab fa-twitter"></i
                       ></a>
                     </li>
                     <li>
-                      <a href="#" aria-label="instagram"
-                        ><i class="fab fa-instagram"></i
+                      <a href="https://workspaceupdates.googleblog.com/2023/04/new-community-features-for-google-chat-and-an-update-currents%20.html" aria-label="google"
+                        ><i class="fab fa-google"></i
                       ></a>
                     </li>
                     <li>
-                      <a class="mr--0" href="#" aria-label="linkedin"
+                      <a class="mr--0" href="https://www.linkedin.com/company/ifnoss" aria-label="linkedin"
                         ><i class="fab fa-linkedin-in"></i
                       ></a>
                     </li>
@@ -121,8 +122,8 @@
             <div class="col-lg-12">
               <div class="header-main-one-wrapper w-100  px-5 ">
              
-                <div class="thumbnail">
-                  <a href="index.html">
+                <div class="thumbnail" >
+                  <a href="index.html" class="d-none d-md-block">
                     <img
                       src="./assets/testing/ifnoss-logo (1).png"
                       alt="finbiz-logo"
@@ -130,6 +131,15 @@
                       style="max-height: 30px"
                     />
                   </a>
+
+				  <!-- Mobile Logo -->
+    <a href="index.html" class="d-block d-md-none">
+        <img src="./assets/testing/ifnoss-logo2.png"
+             alt="mobile-logo"
+             class="img-fluid"
+             style="max-height:40px;">
+    </a>
+				  
                 </div>
 
                 <div class="main-header">
@@ -781,7 +791,7 @@
                       <li class="main-nav has-dropdown project-a-after">
                         <a href="#">Institutes</a>
                         <ul class="submenu parent-nav">
-                          <li><a href="#"> Master Administrator Module</a></li>
+                          <li><a href="admin_module.html"> Master Administrator Module</a></li>
                           <li><a href="head_office_module.html">  Head Office Module</a></li>
                           <li><a href="center_level_software.html">Center Level Module</a></li>
                           <li>
@@ -843,52 +853,59 @@
 
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
 
-<div class="container-fluid">
-    <div class="row min-vh-100">
 
-        <!-- Left Sidebar -->
-        <div class="col-md-3 col-lg-2 bg-light p-4 border-end">
 
-           <span class="pre text-success">Modules </span>
+<div class="business-goal-area-2 rts-section-gap">
+    <div class="container pt--3">
+      <div class="row">
+         <!-- Left Sidebar -->
+        <div class="col-md-3 col-lg-3 p-4 border-end">
+
+           <span class="pre text-success fs-1">Modules </span>
 
             <ul class="nav flex-column nav-pills">
 
                 <li class="nav-item mb-2">
-                    <a href="admin_module.html" class="side-nav active">
-                       Admin Module
-                    </a>
+                  <a href="admin_module.html" class="side-nav active">
+                    <i class="bi bi-gear"></i>
+                    <span class="ms-2">Admin Module</span>
+                  </a>
                 </li>
 
                 <li class="nav-item mb-2">
                     <a href="head_office_module.html" class="side-nav">
-                      Head Office
+                      <i class="bi bi-building"></i>
+                      <span class="ms-2">Head Office</span>
                     </a>
                 </li>
 
                 <li class="nav-item mb-2">
-                    <a href="#" class="side-nav">
-                       Center Level
+                    <a href="center_level_software.html" class="side-nav">
+                      <i class="bi bi-hdd"></i>
+                        <span class="ms-2">Center Level</span>
                     </a>
                 </li>
 
                 <li class="nav-item mb-2">
-                    <a href="#" class="side-nav">
-                        Visitor Tracking
+                    <a href="visitor_tracking.html" class="side-nav">
+                      <i class="bi bi-people"></i>
+                        <span class="ms-2">Visitor Tracking</span>
                     </a>
                 </li>
 
                 <li  class="nav-item mb-2">
-                  <a href="sms_software.html" class="side-nav">SMS</a>
+                  <a href="sms_software.html" class="side-nav">
+                    <i class="bi bi-envelope"></i>
+                    <span class="ms-2">SMS</span>
+                  </a>
                 </li>
 
             </ul>
 
-   
-
         </div>
 
         <!-- Right Content -->
-        <div class="col-md-9 col-lg-10 p-5">
+        <div class="col-md-9 col-lg-9 p-5">
 
 
             <div class="row">
@@ -896,15 +913,17 @@
                     <div class="title-between-area">
                         <div class="title-style-five">
                             <span class="pre">Super Admin </span>
-                            <h2 class="title rts-text-anime-style-1">Super Admin Text</h2>
+                            <h2 class="title rts-text-anime-style-1 " style="font-size: 32px;">Super Admin Text</h2>
                         </div>
-                        <a href="qoutes.html" class="rts-btn btn-primary">Get a Qoutes</a>
+                        <button class="rts-btn btn-primary fs-3" type="submit">
+                  Get a Quote
+                </button>
                     </div>
                 </div>
             </div>
 
 
-            <div class="container py-5">
+        <div class="container py-5">
             
 
            <div class="title-style-five">
@@ -912,15 +931,24 @@
            </div>
 
           <div class="container">
-            <ul>
-                <li>Deleting Records</li>
-                <li>Adding Fee Structure</li>
-                <li>Course Creation</li>
-                <li>Referral Source & sub source creation</li>
-                <li>Print material masters</li>
-                 <li>Changing login passwords of centers & regions</li>
-                <li>Creating regions & centers under them</li>
-                <li>Taking data backups</li>
+            <ul class="list-unstyled ms-4 mt-2">
+              <li class="mb-1">
+                 <i class="bi bi-arrow-right-circle text-muted me-2"></i>
+                Deleting Records</li>
+                <li class="mb-1">
+                 <i class="bi bi-arrow-right-circle text-muted me-2"></i>Adding Fee Structure</li>
+              <li class="mb-1">
+                 <i class="bi bi-arrow-right-circle text-muted me-2"></i>Course Creation</li>
+              <li class="mb-1">
+                 <i class="bi bi-arrow-right-circle text-muted me-2"></i>Referral Source & sub source creation</li>
+              <li class="mb-1">
+                 <i class="bi bi-arrow-right-circle text-muted me-2"></i>Print material masters</li>
+              <li class="mb-1">
+                 <i class="bi bi-arrow-right-circle text-muted me-2"></i>Changing login passwords of centers & regions</li>
+              <li class="mb-1">
+                 <i class="bi bi-arrow-right-circle text-muted me-2"></i>Creating regions & centers under them</li>
+                 <li class="mb-1">
+                 <i class="bi bi-arrow-right-circle text-muted me-2"></i>Taking data backups</li>
             </ul>
           </div>
 
@@ -945,164 +973,51 @@ function showImage(button) {
 
         </div>
 
-    </div>
-</div>
-
-
-<div class="container py-5">
-  <div class="row g-4 justify-content-center">
-
-    <!-- CARD 1 -->
-    <div class="col-12 col-sm-6 col-lg-3">
-      <div style="
-          background:#f4f5f6;
-          border-radius:22px;
-          padding:45px 25px 28px;
-          text-align:center;
-          position:relative;
-          box-shadow:0 12px 30px rgba(0,0,0,.05);
-          height:100%;
-      ">
-
-        <!-- Floating Icon -->
-        <div style="
-            position:absolute;
-            top:-28px;
-            left:0;
-            right:0;
-        ">
-          <svg width="64" height="64" viewBox="0 0 24 24" fill="none" stroke="#20282D" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
-  <path d="M9 3l6 2 6-2v16l-6 2-6-2-6 2V5l6-2z"/>
-  <circle cx="12" cy="10" r="2.5"/>
-  <path d="M12 12.5s-3 2.5-3 4.5a3 3 0 006 0c0-2-3-4.5-3-4.5z"/>
-</svg>
         </div>
-
-        <h5 style="margin-top:15px;font-weight:600;color:#2c3640;">Multi Location</h5>
-
-        <div style="height:1px;background:#e4e6e8;margin:14px 0 18px;"></div>
-
-        <div style="color:#5f6b76;font-size:15px;">
-          <div style="padding:6px 0;">Multiple Sites</div>
-          <div style="border-top:1px solid #eceff1;"></div>
-          <div style="padding:6px 0;">Global Coverage</div>
-        </div>
-
       </div>
-    </div>
-
-    <!-- CARD 2 -->
-    <div class="col-12 col-sm-6 col-lg-3">
-      <div style="
-          background:#f4f5f6;
-          border-radius:22px;
-          padding:45px 25px 28px;
-          text-align:center;
-          position:relative;
-          box-shadow:0 12px 30px rgba(0,0,0,.05);
-          height:100%;
-      ">
-
-        <div style="position:absolute;top:-28px;left:0;right:0;">
        
-<svg width="64" height="64" viewBox="0 0 24 24" fill="none" stroke="#20282D" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
-  <path d="M14 3H6a2 2 0 00-2 2v12a2 2 0 002 2h8"/>
-  <path d="M14 3v5h5"/>
-  <circle cx="18" cy="17" r="2.5"/>
-  <path d="M18 13v1M18 20v1M14.5 17h1M20.5 17h1M15.7 14.7l.7.7M19.6 18.6l.7.7M20.3 14.7l-.7.7M16.4 18.6l-.7.7"/>
-</svg>
-
-
-        </div>
-
-        <h5 style="margin-top:15px;font-weight:600;color:#2c3640;">Fully Customizable</h5>
-
-        <div style="height:1px;background:#e4e6e8;margin:14px 0 18px;"></div>
-
-        <div style="color:#5f6b76;font-size:15px;">
-          <div style="padding:6px 0;">Easy to Modify</div>
-          <div style="border-top:1px solid #eceff1;"></div>
-          <div style="padding:6px 0;">Theme Options</div>
-        </div>
-
-      </div>
-    </div>
-
-    <!-- CARD 3 -->
-    <div class="col-12 col-sm-6 col-lg-3">
-      <div style="
-          background:#f4f5f6;
-          border-radius:22px;
-          padding:45px 25px 28px;
-          text-align:center;
-          position:relative;
-          box-shadow:0 12px 30px rgba(0,0,0,.05);
-          height:100%;
-      ">
-
-        <div style="position:absolute;top:-28px;left:0;right:0;">
-      
-<svg width="64" height="64" viewBox="0 0 24 24" fill="none" stroke="#20282D" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
-  <path d="M21 15a4 4 0 01-4 4H8l-5 3V7a4 4 0 014-4h10a4 4 0 014 4z"/>
-  <path d="M7 9h6M7 12h4"/>
-</svg>
-
-
-        </div>
-
-        <h5 style="margin-top:15px;font-weight:600;color:#2c3640;">Multi Lingual</h5>
-
-        <div style="height:1px;background:#e4e6e8;margin:14px 0 18px;"></div>
-
-        <div style="color:#5f6b76;font-size:15px;">
-          <div style="padding:6px 0;">Languages</div>
-          <div style="border-top:1px solid #eceff1;"></div>
-          <div style="padding:6px 0;">Certified Translation</div>
-        </div>
-
-      </div>
-    </div>
-
-    <!-- CARD 4 -->
-    <div class="col-12 col-sm-6 col-lg-3">
-      <div style="
-          background:#f4f5f6;
-          border-radius:22px;
-          padding:45px 25px 28px;
-          text-align:center;
-          position:relative;
-          box-shadow:0 12px 30px rgba(0,0,0,.05);
-          height:100%;
-      ">
-
-        <div style="position:absolute;top:-28px;left:0;right:0;">
-      
-<svg width="64" height="64" viewBox="0 0 24 24" fill="none" stroke="#20282D" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
-  <rect x="5" y="2" width="10" height="16" rx="2"/>
-  <path d="M8 6l2 2 3-3 2 2"/>
-  <circle cx="18" cy="18" r="3"/>
-  <path d="M20.5 20.5L22 22"/>
-</svg>
-
-
-        </div>
-
-        <h5 style="margin-top:15px;font-weight:600;color:#2c3640;">Fully Responsive</h5>
-
-        <div style="height:1px;background:#e4e6e8;margin:14px 0 18px;"></div>
-
-        <div style="color:#5f6b76;font-size:15px;">
-          <div style="padding:6px 0;">All Devices</div>
-          <div style="border-top:1px solid #eceff1;"></div>
-          <div style="padding:6px 0;">High Performance</div>
-        </div>
-
-      </div>
-    </div>
-
-  </div>
 </div>
 
+       <!-- Services Cards Section -->
+ <div class="container py-5">
+    <div class="row g-4 text-center py-3"> 
+
+        <!-- Card 1 -->
+        <div class="col-12 col-sm-6 col-lg-3">
+            <div class="card border-0 shadow-sm  p-4 service-card h-100 bg-light">
+                <img src="assets/testing/location.svg" class="mx-auto mb-3 service-icon " alt="" style="width: 100px; height: 100px;">
+                <h5 class="fw-semibold mb-1">Multi Location</h5>
+                <!-- <p class="text-muted small mb-0">Active Directory</p> -->
+            </div>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="col-12 col-sm-6 col-lg-3">
+            <div class="card border-0 shadow-sm p-4 service-card h-100  bg-light">
+                <img src="assets/testing/customize.svg" class="mx-auto mb-3 service-icon" alt="" style="width: 100px; height: 100px;">
+                <h5 class="fw-semibold mb-0">Fully Customizable</h5>
+            </div>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="col-12 col-sm-6 col-lg-3">
+            <div class="card border-0 shadow-sm p-4 service-card h-100  bg-light">
+                <img src="assets/testing/responsive.svg" class="mx-auto mb-3 service-icon" alt="" style="width: 100px; height: 100px;">
+                <h5 class="fw-semibold mb-1">Fully Responsive</h5>
+                <!-- <p class="text-muted small mb-0">APPS</p> -->
+            </div>
+        </div>
+
+        <!-- Card 4 -->
+        <div class="col-12 col-sm-6 col-lg-3">
+            <div class="card border-0 shadow-sm p-4 service-card h-100  bg-light">
+                <img src="assets/testing/language.svg" class="mx-auto mb-3 service-icon" alt="" style="width: 100px; height: 100px;">
+                <h5 class="fw-semibold mb-0">Multi Lingual</h5>
+            </div>
+        </div>
+
+    </div>
+</div> 
 
 
 
