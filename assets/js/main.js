@@ -1466,5 +1466,19 @@
 
 
 
+// PROGRESS BAR JS
 
+			window.addEventListener("load", function(){
+
+document.querySelectorAll(".progress-fill").forEach(function(bar){
+
+let width = bar.getAttribute("data-width");
+
+setTimeout(function(){
+bar.style.width = width + "%";
+},300);
+
+});
+
+});
 
