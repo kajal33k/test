@@ -2541,6 +2541,7 @@ Background Image
 
 .bg_image--1 {
   background-image: url(../images/bg/bg-image-1.jpg);
+  /* background-image: url(assets/testing/bg1.png); */
 }
 
 .bg_image--2 {
@@ -9058,6 +9059,7 @@ header.header--sticky.sticky .nav-area ul li.main-nav {
 
 .rts-banner-area-two {
   background-image: url(../testing/bg.jpg);
+    /* background-image: url(../testing/bg1.png); */
   height: 750px;
   display: flex;
   align-items: center;
